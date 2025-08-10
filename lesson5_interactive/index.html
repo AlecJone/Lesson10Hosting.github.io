@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>JavaScript Interactivity</title>
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <script src="scripts/javascripts.js"></script>
+
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <nav class="top-nav">
+      <a href="../index.html" class="home-btn"> Home</a>
+    </nav>
+  </head>
+  <h1>JavaScript Interactivity</h1>
+  <body>
+    <main>
+      <p id="para1">
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ab nesciunt
+        odio atque quisquam, sunt dolor perspiciatis quo voluptates non et,
+        ullam aperiam, quae laboriosam inventore optio quibusdam deserunt dicta
+        quia.
+      </p>
+
+      <p>
+        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Dolorem
+        aspernatur odit beatae esse inventore odio quasi illo molestias, saepe
+        error nesciunt. Iste maiores dolor modi. Distinctio modi tempora minus
+        ipsa, aut esse perspiciatis nisi nesciunt ea asperiores voluptatem, et,
+        quia autem facere adipisci. Quos exercitationem consequuntur eligendi
+        ipsam harum obcaecati!
+      </p>
+    </main>
+    <p id="greeting">Hello World!</p>
+    <div class="form-control">
+      <label for="newGreeting">New Greeting:</label>
+      <input type="text" id="newGreeting" placeholder="Enter new greeting" />
+    </div>
+
+    <div class="form-control">
+      <label for="newPara1">Update First Paragraph:</label>
+      <input type="text" id="newPara1" placeholder="Enter new paragraph text" />
+    </div>
+
+    <div class="form-control">
+      <label for="bgColor">Select Background Color:</label>
+      <select id="bgColor">
+        <option value="white">White</option>
+        <option value="lightblue">Light Blue</option>
+        <option value="lightgray">Light Gray</option>
+        <option value="beige">Beige</option>
+      </select>
+    </div>
+
+    <button onclick="applyChanges()">Apply Changes</button>
+  </body>
+</html>

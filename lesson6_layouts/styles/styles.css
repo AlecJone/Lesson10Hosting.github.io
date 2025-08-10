@@ -1,0 +1,88 @@
+header {
+  background-color: #222;
+  color: white;
+  padding: 10px;
+  display: flex;
+  justify-content: center; 
+}
+.nav-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+}
+
+.nav-menu {
+  list-style: none;
+  display: flex;
+  gap: 320px;
+  padding: 0;
+  margin: 0;
+}
+
+.nav-menu li a {
+  color: white;
+  text-decoration: none;
+}
+
+.album-flex {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+  margin: 20px;
+}
+
+.album-container {
+  position: relative;
+  margin: 10px;
+  transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+.album {
+  width: 150px;
+  transition: transform 0.3s ease, margin-top 0.3s ease;
+}
+
+.album-container:hover {
+  transform: scale(1.2);
+  margin-top: 20px;
+}
+
+.album-info {
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.75);
+  color: white;
+  padding: 10px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s ease;
+}
+
+.album-container:hover .album-info {
+  opacity: 1;
+}
+
+table {
+  width: 80%;
+  margin: 20px auto;
+  border-collapse: collapse;
+}
+
+th, td {
+  border: 1px solid #ccc;
+  padding: 10px;
+  text-align: left;
+}
+
+footer {
+  background-color: #333;
+  color: white;
+  padding: 20px;
+  text-align: center;
+}

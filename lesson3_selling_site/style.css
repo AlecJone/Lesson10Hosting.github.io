@@ -1,0 +1,32 @@
+/* One added feature is I changed the background image */
+
+body {
+  background-color: lightgray;
+  background-image: url("./Images/paper.jpg");
+}
+/* Another added feature is I changed the font of h1 and h2 to two different
+https://www.w3schools.com/css/css_font.asp*/
+h1 {
+  color: black;
+  border: 3px solid black;
+  text-align: center;
+  font-family: 'Lucida Sans', monospace;
+}
+/* Another added feature is I changed the font of h1 and h2 to two different 
+https://www.w3schools.com/css/css_font.asp*/
+h2 {
+  border: 1px solid black;
+  background-color: #73ce0cab;
+  padding: 5px;
+  font-weight: bold;
+  font-family: 'Lucida San', monospace;
+}
+
+ol,ul,p{
+  color: #2a52be; 
+}
+
+/* The last added feature is I changed the opacity of the picture on the main site https://www.w3schools.com/css/css_image_transparency.asp*/
+img {
+  opacity: 0.5;
+}

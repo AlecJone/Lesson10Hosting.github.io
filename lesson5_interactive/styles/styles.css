@@ -1,0 +1,27 @@
+body {
+  font-family: Arial, sans-serif;
+  padding: 20px;
+  background-color: white ;
+  transition: .3s;
+}
+
+h1 {
+  color: #333;
+}
+
+.form-control {
+  margin-top: 15px;
+}
+
+label {
+  display: block;
+  margin-bottom: 5px;
+  font-weight: bold;
+}
+
+input[type="text"], select {
+  padding: 6px;
+  width: 100%;
+  max-width: 300px;
+  box-sizing: border-box;
+}
